@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'veadmin';
-  src:  url('fonts/veadmin.eot?lj1e8r');
-  src:  url('fonts/veadmin.eot?lj1e8r#iefix') format('embedded-opentype'),
-    url('fonts/veadmin.ttf?lj1e8r') format('truetype'),
-    url('fonts/veadmin.woff?lj1e8r') format('woff'),
-    url('fonts/veadmin.svg?lj1e8r#veadmin') format('svg');
+  src:  url('fonts/veadmin.eot?bumsn9');
+  src:  url('fonts/veadmin.eot?bumsn9#iefix') format('embedded-opentype'),
+    url('fonts/veadmin.ttf?bumsn9') format('truetype'),
+    url('fonts/veadmin.woff?bumsn9') format('woff'),
+    url('fonts/veadmin.svg?bumsn9#veadmin') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -147,4 +147,7 @@ i {
 }
 .fib-trash:before {
   content: "\e924";
+}
+.fib-bag:before {
+  content: "\e929";
 }

@@ -1,0 +1,19 @@
+{
+  "name": "fib-veadmin",
+  "version": "0.0.1",
+  "description": "An Admin Panel Based On Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fibdesign/veadmin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fibdesign/veadmin/issues"
+  },
+  "homepage": "https://github.com/fibdesign/veadmin#readme"
+}
