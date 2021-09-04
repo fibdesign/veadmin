@@ -2,7 +2,7 @@
   <div class="row" id="veadmin">
     <sidebar :items="sidebar" class="xcol-info"/>
     <main class="xcol-body">
-      <navbar/>
+      <navbar :username="username"/>
       <div class="p-1"><slot/></div>
     </main>
   </div>
@@ -14,7 +14,7 @@ import Navbar from "@/plugins/veadmin/components/Navbar";
 export default {
   name: "app",
   components: {Navbar, Sidebar},
-  props:['sidebar']
+  props:['sidebar','username']
 }
 </script>
 
