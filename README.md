@@ -1,6 +1,7 @@
 # Veadmin
 An admin panel based on Vue.js
 
+![preview](thumbnail.png)
 
 # Requirement
 * [Vue 2](https://vuejs.org/)
