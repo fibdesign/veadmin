@@ -2,10 +2,8 @@
   <nav class="navigation noshadow bg-success">
 
     <ul>
-      <li><a href="/">رفتن به سایت</a></li>
-    </ul>
-    <ul>
       <li><div class="sidebarBtn row-c" @click="$emit('sidebar')"><i class="fib-menu-lines"></i></div></li>
+      <li><a href="/">رفتن به سایت</a></li>
     </ul>
     <ul class="mr-auto">
       <li class="row-c">

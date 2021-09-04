@@ -1,6 +1,6 @@
 {
   "name": "fib-veadmin",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "description": "An Admin Panel Based On Vue.js",
   "main": "index.js",
   "repository": {
