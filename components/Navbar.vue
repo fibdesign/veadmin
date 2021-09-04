@@ -1,8 +1,7 @@
 <template>
   <nav class="navigation noshadow bg-success">
     <ul>
-      <li><i class="fib-menu-lines"></i></li>
-<!--      <li><input type="text" placeholder="جستجو..." class="veadminForm"></li>-->
+      <li><div class="sidebarBtn row-c" @click="$emit('sidebar')"><i class="fib-menu-lines"></i></div></li>
     </ul>
     <ul class="mr-auto">
       <li class="row-c">
@@ -26,13 +25,18 @@ export default {
 nav *{
   color: white!important;
 }
-//.veadminForm{
-//  background-color: unset;
-//  border: unset;
-//  padding: 10px;
-//  color: white;
-//  &::placeholder{
-//    color: white;
-//  }
-//}
+.sidebarBtn{
+  display: none;
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  &:hover{
+    background-color: #ffffff15;
+  }
+}
+@media screen and (max-width: 500px){
+  .sidebarBtn{display: block}
+}
 </style>
