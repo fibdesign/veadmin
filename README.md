@@ -5,7 +5,7 @@ An admin panel based on Vue.js
 # Requirement
 * [Vue 2](https://vuejs.org/)
 * [Vue-Router](https://router.vuejs.org/)
-* [MaxUp](maxup.fibdesign.ir)
+* [MaxUp](https://maxup.fibdesign.ir)
 
 # Getting Start
 - you can install via `github` or `npm`
